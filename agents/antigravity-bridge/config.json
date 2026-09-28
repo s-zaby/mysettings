@@ -1,0 +1,23 @@
+{
+  "engine": "stream-json",
+  "acp": {
+    "bin": "",
+    "usageEstimate": "estimate"
+  },
+  "mode": "accept-edits",
+  "skipPermissions": true,
+  "defaultModel": "flash",
+  "defaultThinking": "medium",
+  "askTool": true,
+  "webTools": false,
+  "bridgeTools": "all",
+  "digest": false,
+  "systemPrompt": true,
+  "turnTimeoutMin": 0,
+  "inactivityTimeoutMin": 5,
+  "approvals": {
+    "gateMode": "auto",
+    "mode": "ask"
+  },
+  "patchCleanupNotified": false
+}

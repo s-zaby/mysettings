@@ -1,0 +1,54 @@
+{
+  "lastChangelogVersion": "0.87.1",
+  "defaultProvider": "openai-codex",
+  "defaultModel": "gpt-6-luna",
+  "packages": [
+    "npm:@bacnh85/pi-sub",
+    "npm:@ff-labs/pi-fff",
+    "npm:@tintinweb/pi-subagents",
+    "npm:@narumitw/pi-stamp",
+    "npm:@narumitw/pi-starship",
+    "npm:pi-observational-memory",
+    "npm:context-mode",
+    "npm:pi-mcp-adapter",
+    "npm:pi-web-access",
+    "npm:pi-tool-display",
+    "npm:@estebanforge/pi-antigravity-bridge"
+  ],
+  "theme": "catppuccin-mocha",
+  "enabledModels": [
+    "openai-codex/gpt-6-astra",
+    "openai-codex/gpt-6-luna",
+    "openai-codex/gpt-6-sol",
+    "antigravity-acp/gemini-3.8-flash"
+  ],
+  "modelThinkingLevels": {
+    "openai-codex/gpt-6-luna": "xhigh",
+    "openai-codex/gpt-6-terra": "medium",
+    "openai-codex/gpt-6-sol": "medium"
+  },
+  "hideThinkingBlock": true,
+  "observational-memory": {
+    "observeAfterTokens": 10000,
+    "reflectAfterTokens": 20000,
+    "compactAfterTokens": 81000,
+    "compactAfterTokensMode": "ratio",
+    "compactAfterTokensRatio": 0.4,
+    "observationsPoolMaxTokens": 20000,
+    "agentMaxTurns": 16,
+    "models": {
+      "consolidator": {
+        "provider": "openai-codex",
+        "id": "gpt-6-luna",
+        "thinking": "high"
+      },
+      "observer": {
+        "provider": "openai-codex",
+        "id": "gpt-6-luna",
+        "thinking": "high"
+      }
+    },
+    "passive": false,
+    "debugLog": false
+  }
+}

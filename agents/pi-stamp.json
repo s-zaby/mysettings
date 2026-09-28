@@ -1,0 +1,9 @@
+{
+	"hourCycle": "24h",
+	"dateContext": "always",
+	"timeZone": "local",
+	"responseTiming": "duration",
+	"showExactTimeline": false,
+	"assistantMetadata": "compact",
+	"toolStamps": true
+}
